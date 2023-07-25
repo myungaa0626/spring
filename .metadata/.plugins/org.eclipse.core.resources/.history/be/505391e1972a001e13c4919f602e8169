@@ -1,0 +1,24 @@
+package ex03.nonDI;
+
+public class MainEntry {
+
+	
+	public static void main(String[] args) {
+		
+		IRecordViewImpl iRecordViewImpl = new IRecordViewImpl();
+		
+		
+		
+		iRecordViewImpl.input();
+		iRecordViewImpl.print();
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+}

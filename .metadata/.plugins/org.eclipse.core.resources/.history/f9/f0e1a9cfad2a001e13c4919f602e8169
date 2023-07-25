@@ -1,0 +1,16 @@
+package quiz;
+
+public interface IMessage {
+	
+	public void sayHello();
+	
+	
+	
+	
+	
+}
+
+
+// 해당 인터페이스를 임프리먼츠 하는 클래스 만들기 - 영어인사, 한국어인사
+
+

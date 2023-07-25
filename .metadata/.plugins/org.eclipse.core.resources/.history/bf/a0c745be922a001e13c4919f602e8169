@@ -1,0 +1,15 @@
+package ex01.nonDI;
+
+public class MainEntry {
+	
+	
+	
+	public static void main(String[] args) {
+		
+	}
+	
+	
+	
+	
+	
+}

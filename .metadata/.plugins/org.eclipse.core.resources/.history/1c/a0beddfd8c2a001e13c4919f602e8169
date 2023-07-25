@@ -1,0 +1,8 @@
+package ex01.nonDI;
+
+public class NewRecord { // DTO, VO, TO class
+	
+	
+	
+
+}

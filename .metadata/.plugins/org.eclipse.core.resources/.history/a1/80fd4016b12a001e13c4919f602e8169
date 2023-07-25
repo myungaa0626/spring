@@ -1,0 +1,29 @@
+package quiz;
+
+public class IMessageKorImpl implements IMessage{
+	
+	private String hello;
+
+
+	public IMessageKorImpl() {}
+
+
+	public IMessageKorImpl(String hello) {
+		super();
+		this.hello = hello;
+	}
+
+
+
+
+
+
+
+	@Override
+	public void sayHello() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+}

@@ -1,0 +1,13 @@
+package quiz;
+
+public class IMessageKorImpl implements IMessage {
+
+
+
+	@Override
+	public void sayHello() {
+		System.out.println(this.hello);
+
+	}
+
+}

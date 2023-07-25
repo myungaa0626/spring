@@ -1,0 +1,26 @@
+package quiz;
+
+public class IMessageEngImpl implements IMessage {
+
+	
+	private String hello;
+	
+	public IMessageEngImpl() {}
+
+//	public IMessageEngImpl(String hello) {
+//		super();
+//		this.hello = hello;
+//	}
+	
+
+	public void setHello(String hello) {
+		this.hello = hello;
+	}
+
+	@Override
+	public void sayHello() {
+		System.out.println(this.hello);
+		
+	}
+
+}

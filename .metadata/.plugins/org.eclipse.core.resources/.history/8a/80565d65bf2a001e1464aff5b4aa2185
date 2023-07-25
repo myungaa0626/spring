@@ -1,0 +1,6 @@
+package ex05.di;
+
+public class MemberDTO { // model
+	
+
+}

@@ -1,0 +1,11 @@
+package quiz;
+
+public class IMessageEngImpl implements IMessage {
+
+	@Override
+	public void sayHello() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

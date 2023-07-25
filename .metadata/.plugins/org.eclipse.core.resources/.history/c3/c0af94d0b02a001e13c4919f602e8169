@@ -1,0 +1,31 @@
+package quiz;
+
+public class IMessageKorImpl implements IMessage{
+	
+	private String hello;
+	
+	public String getKor() {
+		return kor;
+	}
+
+	public void setKor(String kor) {
+		this.kor = kor;
+	}
+
+	public String getEng() {
+		return eng;
+	}
+
+	public void setEng(String eng) {
+		this.eng = eng;
+	}
+
+	
+	@Override
+	public void sayHello() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+}

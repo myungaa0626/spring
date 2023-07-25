@@ -1,0 +1,17 @@
+package ex03.nonDI;
+
+public class IRecordImpl implements IRecord {
+
+	@Override
+	public int total() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public float avg() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

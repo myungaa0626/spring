@@ -1,0 +1,25 @@
+package ex01.nonDI;
+
+public class NewRecordView {
+	
+	private NewRecord record;
+
+	public NewRecordView(int kor, int eng, int com, int math) {
+		record = new NewRecord(kor, eng, com, math);
+			
+	}
+	
+	public void print() {
+		
+		System.out.println("KOR:" + record.getKor());
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+}

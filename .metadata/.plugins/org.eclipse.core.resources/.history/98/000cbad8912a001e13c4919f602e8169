@@ -1,0 +1,16 @@
+package ex01.nonDI;
+
+public class NewRecordView {
+	
+	private NewRecord record;
+
+	public NewRecordView(NewRecord record) {
+
+	}
+	
+	
+	
+	
+	
+	
+}

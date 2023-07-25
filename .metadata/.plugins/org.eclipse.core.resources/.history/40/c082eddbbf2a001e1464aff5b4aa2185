@@ -1,0 +1,15 @@
+package ex05.di;
+
+public class MemberDAO {
+	
+	private MemberDTO dto;
+	
+	public MemberDAO(){}
+	
+	
+	
+	
+	
+	
+
+}

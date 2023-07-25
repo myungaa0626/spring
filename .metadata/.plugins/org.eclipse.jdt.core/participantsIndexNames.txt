@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3720696095.index
+\sp01_spring\src\main\java
+C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3116680082.index
+\sp01_spring\src\main\java
+C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2292608627.index
+\sp0_spring\src\main\java
