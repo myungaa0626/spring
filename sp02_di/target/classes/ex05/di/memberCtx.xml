@@ -1,31 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	
+
 	xmlns:p="http://www.springframework.org/schema/p"
 	xmlns:c="http://www.springframework.org/schema/c"
-	
+
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
 	<!-- memberCtx.xml -->
-	
-	<bean class="ex05.di.MemberDTO" id="dto" c:age="77" c:name="haha" c:message="kikiki" />
-	
+
+	<bean name="xyz" class="ex05.di.MemberDTO" id="dto" c:age="77"
+		c:name="haha333" c:message="kikiki" />
+
 	<bean class="ex05.di.MemberDAO" id="dao" p:dto-ref="dto" />
-	
-	
-<!--     <bean id="vo" class="ex05.di.MemberDTO"> 
-		<constructor-arg name="age" value="33" />
-		<constructor-arg name="message" value="hi" />
-		<constructor-arg name="name" value="강감찬" />
-	</bean> -->
 
 
 
-<!-- 	<bean id="dao" class="ex05.di.MemberDAO"> -->
-<!-- 		<property name="dto" ref="vo"></property> -->
-<!-- 	</bean> -->
+
+	<!-- <bean id="vo" class="ex05.di.MemberDTO"> <constructor-arg name="age" 
+		value="33" /> <constructor-arg name="message" value="hi" /> <constructor-arg 
+		name="name" value="강감찬" /> </bean> -->
+
+
+
+	<!-- <bean id="dao" class="ex05.di.MemberDAO"> -->
+	<!-- <property name="dto" ref="vo"></property> -->
+	<!-- </bean> -->
 
 
 

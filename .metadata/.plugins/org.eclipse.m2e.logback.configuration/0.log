@@ -3560,3 +3560,522 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2023-07-25 18:19:19,021 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\main\resources
 2023-07-25 18:19:19,021 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-07-25 18:19:19,021 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\test\resources
+2023-07-26 09:06:35,842 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-07-26 09:06:49,729 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:06:49,744 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-07-26 09:06:49,744 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:06:49,744 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-07-26 09:06:52,330 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:06:52,330 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\main\resources
+2023-07-26 09:06:52,330 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:06:52,330 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\test\resources
+2023-07-26 09:10:21,774 [Worker-14: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sp02_di:sp02_di:0.0.1-SNAPSHOT @ C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\pom.xml.
+2023-07-26 09:10:21,852 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:10:21,853 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\main\resources
+2023-07-26 09:10:21,854 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:10:21,855 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\test\resources
+2023-07-26 09:30:01,288 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:30:01,290 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\main\resources
+2023-07-26 09:30:01,290 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:30:01,291 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\test\resources
+2023-07-26 09:30:09,903 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:30:09,904 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\main\resources
+2023-07-26 09:30:09,905 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:30:09,906 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\test\resources
+2023-07-26 09:33:46,824 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:33:46,825 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\main\resources
+2023-07-26 09:33:46,826 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:33:46,826 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\test\resources
+2023-07-26 09:36:43,763 [Worker-31: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sp03_di:sp03_di:0.0.1-SNAPSHOT @ C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\pom.xml.
+2023-07-26 09:36:43,804 [Worker-31: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sp03_di/src
+2023-07-26 09:36:43,805 [Worker-31: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /sp03_di/src/test/java because it overlaps with /sp03_di/src
+2023-07-26 09:36:43,895 [Worker-31: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-07-26 09:36:43,935 [Worker-31: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sp03_di:sp03_di:0.0.1-SNAPSHOT @ C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\pom.xml.
+2023-07-26 09:36:44,171 [Worker-31: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sp03_di/src
+2023-07-26 09:36:44,172 [Worker-31: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /sp03_di/src/test/java because it overlaps with /sp03_di/src
+2023-07-26 09:36:44,199 [Worker-31: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2023-07-26 09:36:44,322 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:36:44,323 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 09:36:44,324 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:36:44,325 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 09:37:19,889 [Worker-25: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sp03_di:sp03_di:0.0.1-SNAPSHOT @ C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\pom.xml.
+2023-07-26 09:37:19,916 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:37:19,916 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 09:37:19,918 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:37:19,919 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 09:37:26,722 [Worker-25: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sp03_di:sp03_di:0.0.1-SNAPSHOT @ C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\pom.xml.
+2023-07-26 09:37:26,744 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:37:26,745 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 09:37:26,746 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:37:26,747 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 09:39:03,663 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:39:03,664 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 09:39:03,665 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:39:03,666 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 09:45:10,545 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:45:10,546 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\main\resources
+2023-07-26 09:45:10,547 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:45:10,548 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\test\resources
+2023-07-26 09:46:27,173 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:46:27,174 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\main\resources
+2023-07-26 09:46:27,175 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:46:27,176 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\test\resources
+2023-07-26 09:46:29,457 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:46:29,458 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\main\resources
+2023-07-26 09:46:29,459 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:46:29,460 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\test\resources
+2023-07-26 09:47:01,398 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:47:01,398 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\main\resources
+2023-07-26 09:47:01,399 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:47:01,400 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\test\resources
+2023-07-26 09:47:34,305 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:47:34,306 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\main\resources
+2023-07-26 09:47:34,307 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:47:34,308 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\test\resources
+2023-07-26 09:47:45,706 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:47:45,707 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\main\resources
+2023-07-26 09:47:45,710 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:47:45,711 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\test\resources
+2023-07-26 09:47:54,862 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:47:54,863 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\main\resources
+2023-07-26 09:47:54,864 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:47:54,865 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\test\resources
+2023-07-26 09:48:08,410 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:48:08,411 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\main\resources
+2023-07-26 09:48:08,412 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:48:08,413 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\test\resources
+2023-07-26 09:48:34,872 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:48:34,873 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\main\resources
+2023-07-26 09:48:34,874 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:48:34,875 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\test\resources
+2023-07-26 09:48:58,485 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:48:58,486 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\main\resources
+2023-07-26 09:48:58,486 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:48:58,487 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\test\resources
+2023-07-26 09:49:05,183 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:49:05,183 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\main\resources
+2023-07-26 09:49:05,184 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:49:05,185 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\test\resources
+2023-07-26 09:49:19,759 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:49:19,760 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\main\resources
+2023-07-26 09:49:19,761 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:49:19,762 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\test\resources
+2023-07-26 09:49:42,002 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:49:42,003 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\main\resources
+2023-07-26 09:49:42,004 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:49:42,005 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\test\resources
+2023-07-26 09:49:50,095 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:49:50,096 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\main\resources
+2023-07-26 09:49:50,097 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:49:50,097 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\test\resources
+2023-07-26 09:58:40,965 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:58:40,966 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 09:58:40,967 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:58:40,968 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 09:59:00,290 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:59:00,291 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 09:59:00,292 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:59:00,293 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 09:59:02,352 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:59:02,353 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 09:59:02,354 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:59:02,355 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 09:59:36,693 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:59:36,694 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 09:59:36,695 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 09:59:36,695 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:00:19,697 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:00:19,699 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:00:19,700 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:00:19,701 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:00:21,761 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:00:21,762 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:00:21,763 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:00:21,764 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:00:47,472 [Worker-40: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sp03_di:sp03_di:0.0.1-SNAPSHOT @ C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\pom.xml.
+2023-07-26 10:00:48,140 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-context:jar:${org.springframework-version} is missing, no dependency information available
+2023-07-26 10:00:48,183 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:00:48,184 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:00:48,185 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:00:48,186 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:01:13,929 [Worker-36: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sp03_di:sp03_di:0.0.1-SNAPSHOT @ C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\pom.xml.
+2023-07-26 10:01:13,954 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:01:13,955 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:01:13,956 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:01:13,957 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:01:31,780 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:01:31,781 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:01:31,782 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:01:31,782 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:01:47,099 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:01:47,101 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:01:47,101 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:01:47,102 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:02:03,749 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:02:03,750 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:02:03,750 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:02:03,751 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:02:32,999 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:02:33,000 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:02:33,001 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:02:33,002 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:02:59,462 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:02:59,464 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:02:59,465 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:02:59,466 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:03:11,485 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:03:11,486 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:03:11,487 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:03:11,510 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:03:20,569 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:03:20,570 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:03:20,570 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:03:20,571 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:03:45,572 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:03:45,573 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:03:45,574 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:03:45,574 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:03:57,413 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:03:57,414 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:03:57,415 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:03:57,416 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:04:33,457 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:04:33,459 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:04:33,460 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:04:33,461 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:04:39,299 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:04:39,300 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:04:39,301 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:04:39,302 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:04:57,131 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:04:57,132 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:04:57,133 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:04:57,133 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:05:02,264 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:05:02,264 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:05:02,265 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:05:02,266 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:05:08,401 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:05:08,402 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:05:08,402 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:05:08,403 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:05:25,251 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:05:25,252 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:05:25,252 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:05:25,253 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:28:44,857 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:28:44,858 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\main\resources
+2023-07-26 10:28:44,859 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:28:44,860 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\test\resources
+2023-07-26 10:28:48,728 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:28:48,729 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\main\resources
+2023-07-26 10:28:48,729 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:28:48,729 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp02_di\src\test\resources
+2023-07-26 10:28:56,402 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:28:56,403 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:28:56,403 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:28:56,404 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:29:26,820 [Worker-54: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sp03_di:sp03_di:0.0.1-SNAPSHOT @ C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\pom.xml.
+2023-07-26 10:29:26,928 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:29:26,929 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:29:26,930 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:29:26,930 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:29:34,699 [Worker-47: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sp03_di:sp03_di:0.0.1-SNAPSHOT @ C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\pom.xml.
+2023-07-26 10:29:34,730 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:29:34,731 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:29:34,731 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:29:34,732 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:38:09,567 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:38:09,568 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:38:09,569 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:38:09,570 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:38:10,635 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:38:10,636 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:38:10,636 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:38:10,637 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:39:55,456 [Worker-56: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sp03_di:sp03_di:0.0.1-SNAPSHOT @ C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\pom.xml.
+2023-07-26 10:39:55,491 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:39:55,492 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:39:55,493 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:39:55,494 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:39:56,677 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:39:56,678 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:39:56,679 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:39:56,680 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:40:02,065 [Worker-57: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sp03_di:sp03_di:0.0.1-SNAPSHOT @ C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\pom.xml.
+2023-07-26 10:40:02,099 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:40:02,099 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:40:02,099 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:40:02,100 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:40:53,466 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:40:53,467 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:40:53,468 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:40:53,469 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:41:10,217 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:41:10,219 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:41:10,219 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:41:10,220 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:41:26,133 [Worker-62: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:41:26,134 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:41:26,135 [Worker-62: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:41:26,136 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:41:31,590 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:41:31,591 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:41:31,591 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:41:31,592 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:41:58,223 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:41:58,224 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:41:58,224 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:41:58,225 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:42:11,464 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:42:11,465 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:42:11,466 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:42:11,467 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:42:24,218 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:42:24,219 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:42:24,220 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:42:24,221 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:42:47,200 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:42:47,202 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:42:47,203 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:42:47,204 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:43:05,465 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:43:05,466 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:43:05,467 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:43:05,468 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:43:49,592 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:43:49,592 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:43:49,592 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:43:49,594 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:43:54,962 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:43:54,963 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:43:54,963 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:43:54,964 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:44:23,641 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:44:23,642 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:44:23,642 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:44:23,643 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:44:37,035 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:44:37,037 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:44:37,038 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:44:37,038 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:45:05,218 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:45:05,219 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:45:05,220 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:45:05,222 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:45:55,710 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:45:55,711 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:45:55,712 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:45:55,712 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:46:21,840 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:46:21,841 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:46:21,842 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:46:21,843 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:46:22,879 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:46:22,880 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:46:22,880 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:46:22,881 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:46:34,651 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:46:34,652 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:46:34,653 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:46:34,654 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 10:47:09,832 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:47:09,833 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 10:47:09,834 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 10:47:09,834 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:07:53,135 [Worker-69: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:07:53,136 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:07:53,136 [Worker-69: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:07:53,138 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:09:26,283 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:09:26,284 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:09:26,285 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:09:26,286 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:09:48,102 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:09:48,103 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:09:48,104 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:09:48,104 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:10:52,902 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:10:52,903 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:10:52,903 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:10:52,904 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:11:11,558 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:11:11,558 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:11:11,559 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:11:11,560 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:12:05,351 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:12:05,352 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:12:05,353 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:12:05,354 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:13:04,976 [Worker-75: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:13:04,977 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:13:04,978 [Worker-75: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:13:04,979 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:13:12,599 [Worker-74: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:13:12,601 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:13:12,601 [Worker-74: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:13:12,602 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:13:16,288 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:13:16,289 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:13:16,289 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:13:16,290 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:13:59,719 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:13:59,721 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:13:59,722 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:13:59,723 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:14:02,365 [Worker-74: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:14:02,366 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:14:02,367 [Worker-74: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:14:02,368 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:14:07,841 [Worker-75: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:14:07,842 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:14:07,842 [Worker-75: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:14:07,843 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:14:56,808 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:14:56,809 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:14:56,810 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:14:56,811 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:15:00,126 [Worker-75: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:15:00,127 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:15:00,128 [Worker-75: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:15:00,128 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:15:01,739 [Worker-74: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:15:01,740 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:15:01,740 [Worker-74: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:15:01,741 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:15:03,445 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:15:03,446 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:15:03,446 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:15:03,447 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:15:17,071 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:15:17,072 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:15:17,072 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:15:17,073 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:15:23,550 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:15:23,551 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:15:23,552 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:15:23,552 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:15:52,917 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:15:52,919 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:15:52,920 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:15:52,921 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:16:00,735 [Worker-75: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:16:00,736 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:16:00,737 [Worker-75: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:16:00,737 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:16:25,048 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:16:25,049 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:16:25,050 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:16:25,050 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:16:35,888 [Worker-74: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:16:35,889 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:16:35,890 [Worker-74: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:16:35,890 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:16:55,787 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:16:55,788 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:16:55,789 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:16:55,790 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:18:17,194 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:18:17,195 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:18:17,196 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:18:17,197 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:18:44,360 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:18:44,361 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:18:44,362 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:18:44,362 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:19:13,512 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:19:13,513 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:19:13,514 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:19:13,515 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:19:29,240 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:19:29,241 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:19:29,241 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:19:29,242 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:19:50,660 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:19:50,661 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:19:50,662 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:19:50,663 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:19:59,281 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:19:59,282 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:19:59,283 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:19:59,283 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:20:21,761 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:20:21,762 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:20:21,763 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:20:21,764 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:22:14,004 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:22:14,005 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:22:14,006 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:22:14,006 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:22:17,252 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:22:17,253 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:22:17,253 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:22:17,254 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:22:22,814 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:22:22,815 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:22:22,816 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:22:22,817 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:22:34,386 [Worker-76: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:22:34,387 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:22:34,387 [Worker-76: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:22:34,388 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:22:39,064 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:22:39,065 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:22:39,065 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:22:39,066 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:22:51,852 [Worker-77: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:22:51,853 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:22:51,853 [Worker-77: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:22:51,854 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:30:02,100 [Worker-81: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:30:02,101 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:30:02,101 [Worker-81: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:30:02,102 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:30:04,000 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:30:04,001 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:30:04,002 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:30:04,002 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:36:24,506 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:36:24,507 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:36:24,508 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:36:24,509 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:36:39,638 [Worker-88: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:36:39,640 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:36:39,640 [Worker-88: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:36:39,641 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:36:44,089 [Worker-89: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:36:44,090 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:36:44,091 [Worker-89: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:36:44,092 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:36:46,774 [Worker-89: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:36:46,775 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:36:46,776 [Worker-89: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:36:46,776 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:37:01,666 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:37:01,667 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:37:01,668 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:37:01,669 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:37:05,511 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:37:05,512 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:37:05,513 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:37:05,514 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:39:59,709 [Worker-88: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:39:59,710 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:39:59,711 [Worker-88: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:39:59,712 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:40:02,939 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:40:02,940 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:40:02,941 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:40:02,942 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:40:06,055 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:40:06,056 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:40:06,057 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:40:06,058 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:40:43,454 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:40:43,455 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:40:43,455 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:40:43,456 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources
+2023-07-26 11:40:45,779 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:40:45,780 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\main\resources
+2023-07-26 11:40:45,781 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-26 11:40:45,781 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp03_di\src\test\resources

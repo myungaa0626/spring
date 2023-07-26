@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<!-- playerCtx.xml -->
+	<bean class="ex01.di.PlayerImpl" id="player" name="m1, m2, m3" />
+	<bean class="ex01.di.PlayerImpl" id="player2" />
+
+	<bean id="soccer" class="ex01.di.Soccer" />
+	<bean id="basketBall" class="ex01.di.BasketBall" />
+	<bean id="curling" class="ex01.di.Curling" />
+
+
+
+	<!-- <bean id="soccer" class="ex01.di.Soccer"> -->
+	<!-- <property name="player" ref="soccer" /> setter method 이용 -->
+	<!-- </bean> -->
+	
+
+
+
+	<!-- <bean id="soccer" class="ex01.di.Soccer" p:player-ref="player" /> -->
+	<!-- <bean id="basketBall" class="ex01.di.BasketBall" p:player-ref="player" 
+		/> -->
+	<!-- <bean id="curling" class="ex01.di.Curling" p:player-ref="player" /> -->
+
+
+
+</beans>

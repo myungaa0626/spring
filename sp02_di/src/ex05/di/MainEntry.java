@@ -7,11 +7,11 @@ public class MainEntry {
 
 	public static void main(String[] args) {
 
+		ApplicationContext ctx = new ClassPathXmlApplicationContext("ex05/di/memberCtx.xml");
 
-		ApplicationContext ctx =
-				new ClassPathXmlApplicationContext("ex05/di/memberCtx.xml");
+//		MemberDAO dao = ctx.getBean("dao", MemberDAO.class);
 
-		MemberDAO dao = ctx.getBean("dao", MemberDAO.class);
+		MemberDAO dao = (MemberDAO) ctx.getBean("dao");
 
 		dao.insert();
 

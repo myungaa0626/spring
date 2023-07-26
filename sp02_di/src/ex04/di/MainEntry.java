@@ -4,6 +4,9 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import ex04.di.IRecordViewImpl;
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+
 
 public class MainEntry {
 
