@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+
+	<context:annotation-config />
+
+
+
+	<!-- object create -->
+	<bean id="email" class="ex02.di.message.EmailMessageServiceImpl" />
+	<bean id="twitter"
+		class="ex02.di.message.TwitterMessageServiceImpl" />
+
+	<!-- constructor 이용한 설정 -->
+	<bean id="myApplication" name="my1" class="ex02.di.message.MyApplication" c:service-ref="email" />
+
+	<!-- setter method -->
+	<bean id="myApplication2" name="my2" class="ex02.di.message.MyApplication" p:service-ref="twitter"/>
+
+
+	<!-- constructor 이용한 설정 -->
+	<!-- <bean id="myApplication" class="ex02.di.message.MyApplication"> -->
+	<!-- <constructor-arg ref="email" /> -->
+	<!-- </bean> -->
+
+	<!-- setter method -->
+	<!-- <bean id="myApplication2" class="ex02.di.message.MyApplication"> -->
+	<!-- <property name="service" ref="twitter" /> -->
+	<!-- </bean> -->
+
+</beans>

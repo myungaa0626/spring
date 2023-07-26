@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<!-- ctx.xml -->
+	<bean class="ex03.di.EmployeePersonImpl" id="employee" c:name="김연아"
+	c:age="33" c:gender="여자" c:hobbys="독서, 영화, 잠자기" />
+
+
+</beans>
