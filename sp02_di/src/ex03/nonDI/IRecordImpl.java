@@ -1,7 +1,5 @@
 package ex03.nonDI;
 
-import lombok.Data;
-
 public class IRecordImpl implements IRecord { // DTO
 
 	private int kor, eng, com;

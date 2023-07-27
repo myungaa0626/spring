@@ -2,4 +2,9 @@
 <typeInfoHistroy>
     <typeInfo handle="=sp02_di/src=/optional=/true=/=/maven.pomderived=/true=/&lt;ex03.nonDI{IRecord.java[IRecord" modifiers="513" timestamp="1690254301484"/>
     <typeInfo handle="=sp02_di/src=/optional=/true=/=/maven.pomderived=/true=/&lt;ex03.nonDI{IRecordView.java[IRecordView" modifiers="513" timestamp="1690253638598"/>
+    <typeInfo handle="=sp03_di/src=/optional=/true=/=/maven.pomderived=/true=/&lt;ex01.di{Player.java[Player" modifiers="513" timestamp="1690334935817"/>
+    <typeInfo handle="=sp03_di/src=/optional=/true=/=/maven.pomderived=/true=/&lt;ex03.di{Person.java[Person" modifiers="513" timestamp="1690355636588"/>
+    <typeInfo handle="=sp04_annotation/C:\/Users\/KOSA\/.m2\/repository\/org\/springframework\/spring-beans\/5.1.3.RELEASE\/spring-beans-5.1.3.RELEASE.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.springframework=/=/maven.artifactId=/spring-beans=/=/maven.version=/5.1.3.RELEASE=/=/maven.scope=/compile=/&lt;org.springframework.beans.factory(DisposableBean.class[DisposableBean" modifiers="1537" timestamp="1690176917489"/>
+    <typeInfo handle="=sp04_annotation/C:\/Users\/KOSA\/.m2\/repository\/org\/springframework\/spring-beans\/5.1.3.RELEASE\/spring-beans-5.1.3.RELEASE.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.springframework=/=/maven.artifactId=/spring-beans=/=/maven.version=/5.1.3.RELEASE=/=/maven.scope=/compile=/&lt;org.springframework.beans.factory(InitializingBean.class[InitializingBean" modifiers="1537" timestamp="1690176917489"/>
+    <typeInfo handle="=sp04_annotation/C:\/Program Files\/Java\/jdk-11\/lib\/jrt-fs.jar`java.naming=/module=/true=/=/maven.pomderived=/true=/=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/11\/docs\/api\/=/&lt;javax.naming.spi(InitialContextFactory.class[InitialContextFactory" modifiers="1537" timestamp="1690174817575"/>
 </typeInfoHistroy>

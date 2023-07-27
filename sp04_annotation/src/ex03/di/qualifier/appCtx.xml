@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+
+	<!-- appCtx.xml -->
+	<context:annotation-config />
+<!-- 	자동으로 annotation 적용에 필요한 클래스를 자동 로드 -->
+
+	<bean id="recorder1" name="r1, r2, r3"
+		class="ex03.di.qualifier.Recorder"><qualifier value="q"></qualifier> </bean>
+
+	<bean id="recorder2" class="ex03.di.qualifier.Recorder"><qualifier value="z"></qualifier> </bean>
+
+	<bean id="monitorViewer" class="ex03.di.qualifier.MonitorViewer"></bean>
+
+
+
+</beans>

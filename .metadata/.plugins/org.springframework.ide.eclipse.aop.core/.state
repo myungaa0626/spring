@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
+<aop-project name="sp04_annotation"/>
 <aop-project name="sp01_spring"/>
+<aop-project name="sp05_aop"/>
+<aop-project name="sp03_di"/>
 <aop-project name="sp02_di"/>
 </aop-reference-model>
