@@ -6,6 +6,9 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="sp07_springMVC_DAO"/>
+			<item value="sp06_springMVC_basic"/>
+			<item value="sp06_springDAO"/>
 			<item value="sp05_aop"/>
 			<item value="sp04_annotation"/>
 			<item value="sp03_di"/>
@@ -14,6 +17,9 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="sp07_springMVC_DAO"/>
+			<item value="sp06_springMVC_basic"/>
+			<item value="sp06_springDAO"/>
 			<item value="sp05_aop"/>
 			<item value="sp04_annotation"/>
 			<item value="sp03_di"/>

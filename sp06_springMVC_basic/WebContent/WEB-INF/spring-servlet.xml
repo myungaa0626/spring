@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<!-- spring-servlet.xml web.xml 안에 있는 DistpatcherServlet 클래스의 servlet-name의 
+		명칭 - servlet.xml -->
+
+	<!-- 사용자 클래스 객체 생성 -->
+	<bean class="kr.edu.kosa.HelloController" name="/hello.bo" />
+	<bean class="kr.edu.kosa.ListController" id="/list.bo" />
+	<bean class="kr.edu.kosa.WriteController" id="/write.bo" />
+	
+	
+	<bean class="com.kosa.UpdateController" />
+
+	<!-- ViewResolver -->
+	<bean id="ViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix"><value>/WEB-INF/views/</value></property>
+		<property name="suffix" value=".jsp" />
+	
+	</bean>
+</beans>
