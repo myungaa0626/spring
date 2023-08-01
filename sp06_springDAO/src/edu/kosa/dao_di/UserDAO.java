@@ -19,8 +19,7 @@ public class UserDAO {
 //		this.connectionMaker = connectionMaker;
 //	}
 
-	public UserDAO() {
-	}
+	public UserDAO() {}
 
 //	public void setConnectionMaker(ConnectionMaker connectionMaker) {// DI - setter method
 //		this.connectionMaker = connectionMaker;
@@ -28,11 +27,11 @@ public class UserDAO {
 
 	// 3. DML 명령어
 	// insert
-	public void insert(UserVO vo) {
+	public void insert(UserVO vo) throws Exception {
 		Connection conn = null;
 		PreparedStatement pstmt = null;
 
-		try {
+//		try {
 
 			conn = connectionMaker.MakeConnection(); // db connect
 
@@ -44,28 +43,32 @@ public class UserDAO {
 			pstmt.setString(3, vo.getPassword());
 			int result = pstmt.executeUpdate();
 			System.out.println(result + "개 입력 성공!!! connectionMaker");
+			
+			
+			pstmt.close();
+			conn.close();
 
-		} catch (Exception e) {
-			e.printStackTrace();
-		} finally {
-			try {
-				pstmt.close();
-				conn.close();
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
-
-		} // end try
+//		} catch (Exception e) {
+//			e.printStackTrace();
+//		} finally {
+//			try {
+//				pstmt.close();
+//				conn.close();
+//			} catch (Exception e) {
+//				e.printStackTrace();
+//			}
+//
+//		} // end try
 
 	}
 
 	// selectAll
-	public void selectAll() {
+	public void selectAll() throws Exception{
 		Connection conn = null;
 		Statement stmt = null;
 		ResultSet rs = null;
 
-		try {
+//		try {
 //				conn = getConnection();
 			conn = connectionMaker.MakeConnection();
 
@@ -80,26 +83,55 @@ public class UserDAO {
 				System.out.println(id + "\t" + name + "\t" + pwd);
 
 			} // while end
+			
+			
+			stmt.close();
+			conn.close();
 
-		} catch (Exception e) {
-			e.printStackTrace();
-		} finally {
-			try {
-				stmt.close();
-				conn.close();
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
-		} // try end
+//		} catch (Exception e) {
+//			e.printStackTrace();
+//		} finally {
+//			try {
+//				stmt.close();
+//				conn.close();
+//			} catch (Exception e) {
+//				e.printStackTrace();
+//			}
+//		} // try end
 	}
 
 	// selectById
+	public void selectById(String id) throws Exception {
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+		
+		conn = connectionMaker.MakeConnection();
+		pstmt = conn.prepareStatement("select * from users where id = ?");
+		pstmt.setString(1, id);
+		
+		rs = pstmt.executeQuery();
+		
+		System.out.println("\nID \t Name \t PWD");
+		
+		while (rs.next()) {
+			
+			id = rs.getString("id");
+			String name = rs.getString("name");
+			String pwd = rs.getString("password");
+			System.out.println(id + "\t" + name + "\t" + pwd);
+			
+			
+		} // while end
+	}
+
+
 	// updateById
-	public void updateByID(String id, String name, String pwd) {
+	public void updateByID(String id, String name, String pwd) throws Exception {
 		Connection conn = null;
 		PreparedStatement pstmt = null;
 		
-		try {
+//		try {
 			conn = connectionMaker.MakeConnection();
 			pstmt = conn.prepareStatement("update users set name = ?, password = ? where id = ?");
 			pstmt.setString(1, name);
@@ -107,44 +139,32 @@ public class UserDAO {
 			pstmt.setString(3, id);
 			
 			pstmt.executeQuery();
-			
-			
 
-			
-		} catch (Exception e) {
-			// TODO: handle exception
-		}
+//		} catch (Exception e) {
+//			// TODO: handle exception
+//		}
 
 	}
 
 	// deleteById
 	
-	public void deleteByID(String id) {
+	public void deleteByID(String id) throws Exception {
 		Connection conn = null;
 		PreparedStatement pstmt = null;
 		
-		try {
+//		try {
 			conn = connectionMaker.MakeConnection();
 			pstmt = conn.prepareStatement("delete from users where id = ?");
 			pstmt.setString(1, id);
 			
 			pstmt.executeUpdate();
 			
-			
-			
-			
-		} catch (Exception e) {
-			// TODO: handle exception
-		}
-		
-		
-		
-		
+//		} catch (Exception e) {
+//			// TODO: handle exception
+//		}
+
 	}
 	
-	
-	
-
 	// menu
 	public void menu() {
 

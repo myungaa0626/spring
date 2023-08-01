@@ -21,6 +21,7 @@ public class HelloController implements Controller {
 		// 1. 
 		ModelAndView mav = new ModelAndView();
 		mav.addObject("nickname","kingsmile"); // data save
+		
 //		mav.setViewName("/WEB-INF/views/hello.jsp");   // move view page 
 	
 		// 2.
