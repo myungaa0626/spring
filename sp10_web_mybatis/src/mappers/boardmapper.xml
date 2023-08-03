@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- boardmapper.xml -->
+
+
+<!-- SQL DML 명령어 처리 -->
+<mapper namespace="dao">
+
+	<select id="selectAll" resultType="vo">
+		select * from mybatisBoard
+	</select>
+
+	<select id="detailList" resultType="vo" parameterType="int">
+		select *
+		from mybatisBoard where seq = #{seq}
+	</select>
+
+
+	<insert id="insert" parameterType="vo">
+		insert into mybatisBoard(seq,
+		title, writer, content, regdate, readcount) values
+		(board_seq.nextval,
+		#{title}, #{writer}, #{content}, sysdate, 0)
+
+	</insert>
+
+	<update id="update" parameterType="vo">
+		update mybatisBoard
+		set title = #{title}, 
+		writer = #{writer}, 
+		content= #{content} 
+		where seq = #{seq}
+	</update>
+
+	<delete id="delete" parameterType="int">
+
+		delete from mybatisBoard where
+		seq = #{seq}
+
+	</delete>
+
+	<select id="selectList" parameterType="hashMap" resultType="vo">
+
+
+		<!-- 1. Java 코드 -->
+		<!-- Map<String, String> map = new HashMap<>(); -->
+		<!-- map.put("column", column); // column: title or writer or content -->
+		<!-- map.put("keyvalue", keyvalue) // keyvalue : 김연아 -->
+
+		<!-- 2. 함수호출시 -->
+		<!-- session.selectList("dao.selectSearch", map); -->
+
+		<!-- 3. xml에서 -->
+		<!-- parameterType = "hashMap" -->
+
+		<!-- map key : column, keyvalue -->
+		<!-- map value : #{column}, #{keyvalue} -->
+
+		<!-- ${column} : 컬럼명 -->
+
+		select * from mybatisBoard
+		<!-- where writer like '%김%' -->
+	<!-- fff = 1 -->
+	<!-- ${fff} aa -->
+	<!-- #{fff} 'aa' -->
+		<if test="column != null">
+			where ${column} like '%' || #{keyvalue} || '%'
+		</if>
+	</select>
+<!-- selectSearch2 -->
+	<select id="search2" parameterType="hashMap"
+		resultType="vo">
+		select * from mybatisBoard
+		<where>
+			<if test="title != null">
+				title=#{keyvalue}
+
+
+			</if>
+			<if test="writer != null">
+				or writer=#{keyvalue}
+
+
+			</if>
+			<if test="content != null">
+				or content title=#{keyvalue}
+
+
+			</if>
+
+		</where>
+	</select>
+
+
+
+
+</mapper>
+
+

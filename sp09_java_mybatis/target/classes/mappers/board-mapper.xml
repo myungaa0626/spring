@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="dao">
+	<select id="selectAll" resultType="vo">
+		select * from mybatisBoard order by seq desc
+	</select>
+
+	<update id="update" parameterType="vo"  >
+		update mybatisBoard 
+		set title=#{title}, writer = #{writer}, content=#{content}
+		where seq = #{seq}
+	</update>
+	
+	<insert id="insert" parameterType="vo">
+		insert into mybatisBoard(seq, title, writer, content, regdate, readcount)
+		values(board_seq.nextval, #{title}, #{writer}, #{content},sysdate,0)
+
+	</insert>
+	
+	<delete id="delete" parameterType="vo">
+		delete from mybatisBoard where seq = #{seq}
+	</delete>
+	
+	<delete id="delete2" parameterType="int">
+		delete from mybatisBoard where seq = #{seq}
+	</delete>
+</mapper>

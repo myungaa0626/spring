@@ -1,0 +1,13 @@
+CREATE TABLE spring_board (
+	  num NUMBER, 
+	  name VARCHAR2(50), 
+	  email  VARCHAR2(50), 
+	  pwd  VARCHAR2(50), 
+	  subject  VARCHAR2(50), 
+	  content  VARCHAR2(2000), 
+	  regdate  date,
+	  hit  NUMBER, 
+	  parent  NUMBER, 
+	  sort  NUMBER, 
+	  tab  NUMBER
+);

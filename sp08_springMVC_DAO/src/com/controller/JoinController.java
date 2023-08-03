@@ -10,21 +10,20 @@ import com.model.MemberDAO;
 import com.model.MemberVO;
 
 @Controller
-//@RequestMapping("join.kosa")
+@RequestMapping("join.kosa")
 public class JoinController {
 	
 	@Autowired
 	private MemberDAO memberDAO; // DB
-	
-	@RequestMapping(value = "join.kosa", method = RequestMethod.GET)
+//	value = "join.kosa", 
+	@RequestMapping(method = RequestMethod.GET)
 	public String form() { // get 전송방식 처리 - UI
 		
 		return "joinForm"; // 	/WEB-INF/views/joinForm.jsp
 		
 	}
-	
-	@RequestMapping(value = "join.kosa", method = RequestMethod.POST )
-//	@RequestMapping(method = RequestMethod.POST)
+//	value = "join.kosa", 
+	@RequestMapping(method = RequestMethod.POST)
 	public String submit(@RequestParam(value = "id",    required = true)  String id,
 						 @RequestParam(value = "name",  required = true)  String name, 
 						 @RequestParam(value = "pwd",   required = true)  String pwd, 

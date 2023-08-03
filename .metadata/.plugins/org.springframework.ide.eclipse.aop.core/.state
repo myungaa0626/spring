@@ -18,6 +18,7 @@
 <aop-reference advice-type="AROUND" bean="1:BeansModel|2:sp05_aop|3:src/ex06/aop/annot/appCtx.xml|7:beans:9|8:worker:22" bean-file="/sp05_aop/src/ex06/aop/annot/appCtx.xml" bean-start-line="22" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/sp05_aop/src/ex06/aop/annot/appCtx.xml" source="=sp05_aop/src=/optional=/true=/=/maven.pomderived=/true=/&lt;ex06.aop.annot{LogApp.java[LogApp~loggerApp~QProceedingJoinPoint;" source-start-line="36" target="=sp05_aop/src=/optional=/true=/=/maven.pomderived=/true=/&lt;ex06.aop.annot{Worker.java[Worker~getWorkerInfo" target-start-line="20"/>
 </aspect-definition>
 </aop-project>
+<aop-project name="sp08_springMVC_DAO"/>
 <aop-project name="sp03_di"/>
 <aop-project name="sp06_springDAO"/>
 <aop-project name="sp06_springMVC_basic"/>
