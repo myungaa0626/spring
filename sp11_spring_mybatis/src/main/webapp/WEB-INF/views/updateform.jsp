@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html5>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -45,8 +45,8 @@
 		<td>
 		
 			<input type="hidden" name="pg" value="${pg}"/>
-			<input type="hidden" name="num" value="${b.num}"/>
-			<input type="text" name="name" maxlength="5" size="12" value="${b.name}"/>
+			<input type="hidden" name="num" value="${dto.num}"/>
+			<input type="text" name="name" maxlength="5" size="12" value="${dto.name}"/>
 		</td>
 	</tr>
 	
@@ -59,7 +59,7 @@
 	<tr>
 		<th>이메일</th>
 		<td>
-			<input type="text" name="email" maxlength="30"  size="30" value="${b.email}" />
+			<input type="text" name="email" maxlength="30"  size="30" value="${dto.email}" />
 		</td>
 	</tr>
 	
@@ -67,13 +67,13 @@
 	<tr>
 		<th>제목</th>
 		<td>
-			<input type="text" name="subject" maxlength="50" size="65" value="${b.subject}" />
+			<input type="text" name="subject" maxlength="50" size="65" value="${dto.subject}" />
 		</td>
 	</tr>
 	<tr>
 		<th>내용</th>
 		<td>
-			<textarea name="content" rows="5" cols="50">${b.content}</textarea>
+			<textarea name="content" rows="5" cols="50">${dto.content}</textarea>
 		</td>
 	</tr>
 	<tr>

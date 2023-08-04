@@ -18,20 +18,19 @@
 		from mybatisBoard where seq = #{seq}
 	</select>
 
-
 	<insert id="insert" parameterType="vo">
 		insert into mybatisBoard(seq,
 		title, writer, content, regdate, readcount) values
 		(board_seq.nextval,
 		#{title}, #{writer}, #{content}, sysdate, 0)
-
 	</insert>
 
 	<update id="update" parameterType="vo">
 		update mybatisBoard
-		set title = #{title}, 
-		writer = #{writer}, 
-		content= #{content} 
+		set title =
+		#{title},
+		writer = #{writer},
+		content= #{content}
 		where seq = #{seq}
 	</update>
 
@@ -63,34 +62,29 @@
 
 		select * from mybatisBoard
 		<!-- where writer like '%김%' -->
-	<!-- fff = 1 -->
-	<!-- ${fff} aa -->
-	<!-- #{fff} 'aa' -->
+		<!-- fff = 1 -->
+		<!-- ${fff} aa -->
+		<!-- #{fff} 'aa' -->
 		<if test="column != null">
 			where ${column} like '%' || #{keyvalue} || '%'
 		</if>
 	</select>
-<!-- selectSearch2 -->
-	<select id="search2" parameterType="hashMap"
-		resultType="vo">
+	<!-- selectSearch2 -->
+	<select id="search2" parameterType="hashMap" resultType="vo">
 		select * from mybatisBoard
 		<where>
 			<if test="title != null">
-				title=#{keyvalue}
-
+			 ${title} like '%' || #{keyvalue} || '%'
 
 			</if>
 			<if test="writer != null">
-				or writer=#{keyvalue}
-
+			or ${writer} like '%' || #{keyvalue} || '%'
 
 			</if>
 			<if test="content != null">
-				or content title=#{keyvalue}
-
+			or ${content} like '%' || #{keyvalue} || '%'
 
 			</if>
-
 		</where>
 	</select>
 

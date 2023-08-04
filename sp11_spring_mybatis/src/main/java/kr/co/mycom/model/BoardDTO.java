@@ -1,12 +1,8 @@
 package kr.co.mycom.model;
-
 import java.util.Date;
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-
 
 @NoArgsConstructor
 @AllArgsConstructor
@@ -18,16 +14,7 @@ public class BoardDTO {
 	private Date regdate;
 	private int hit, parent, sort, tab;
 	
-	
-	
-	
 }
-
-
-
-
-
-
 
 //CREATE TABLE spring_board (
 //		  num NUMBER, 
@@ -42,15 +29,4 @@ public class BoardDTO {
 //		  sort  NUMBER, 
 //		  tab  NUMBER
 //	);
-
-
-
-
-
-
-
-
-
-
-
 

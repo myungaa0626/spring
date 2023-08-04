@@ -27,11 +27,11 @@
 
 	<h3>다중 검색하기</h3>
 	<form action="board?cmd=search2" method="post">
-		<input type="checkbox" name="writer" value="writer" checked="checked">
+<!-- 		<input type="checkbox" name="writer" value="writer" checked="checked"> -->
 		<input type="checkbox" name="writer" value="writer" checked>	작성자  
 		<input type="checkbox" name="content" value="content">	내 용  
 		<input type="checkbox" name="title" value="title">	제 목  
-		검색어: <input type="checkbox" name="keyvalue"> <input type="submit" value="검색">	
+		검색어: <input type="text" name="keyvalue"> <input type="submit" value="검색">	
 	</form>
 
 	<table>

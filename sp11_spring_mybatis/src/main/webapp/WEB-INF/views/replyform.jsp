@@ -48,9 +48,9 @@ function board_reply(){
 		<td>
 			<!-- 히든 필드로 정보 보내기 -->
 			<input type="hidden" name="pg" value="${pg}"/>
-			<input type="hidden" name="parent" value="${b.parent}"/>
-			<input type="hidden" name="sort" value="${b.sort}"/>
-			<input type="hidden" name="tab" value="${b.tab}"/>
+			<input type="hidden" name="parent" value="${dto.parent}"/>
+			<input type="hidden" name="sort" value="${dto.sort}"/>
+			<input type="hidden" name="tab" value="${dto.tab}"/>
 			<!-- 히든 필드로 정보 보내기 -->
 			
 			<input type="text" name="name" maxlength="5" size="12"/>
@@ -74,7 +74,7 @@ function board_reply(){
 	<tr>
 		<th>제목</th>
 		<td>
-			<input type="text" name="subject" maxlength="50" size="65" value="RE:${b.subject}"/>
+			<input type="text" name="subject" maxlength="50" size="65" value="RE:${dto.subject}"/>
 		</td>
 	</tr>
 	<tr>

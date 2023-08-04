@@ -140,7 +140,7 @@ public class BoardDAO {
 		 try {
 				 
 				 sqlSession = SqlSessionFactoryService.getSqlSessionFactory().openSession();
-				 return sqlSession.selectList("dao.selectList", map);
+				 return sqlSession.selectList("dao.search2", map); // dao.selectList
 				 
 		} catch (Exception e) {
 			return null;

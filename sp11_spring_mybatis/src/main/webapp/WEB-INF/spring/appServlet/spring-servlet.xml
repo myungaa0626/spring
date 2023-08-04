@@ -10,11 +10,7 @@
 
 <!-- spring-servlet.xml -->
 
-
 	<context:annotation-config />
-
-
-
 
 	<!-- user class instance(object) create -->
 <!-- 	<bean class="edu.kosa.controller.ListController" /> -->
@@ -32,8 +28,6 @@
 	</bean>
 
 	<context:component-scan
-		base-package="kr.co.mycom.model, kr.co.mycom.controller" />
-
-
+		base-package="kr.co.mycom.*" />
 
 </beans>
