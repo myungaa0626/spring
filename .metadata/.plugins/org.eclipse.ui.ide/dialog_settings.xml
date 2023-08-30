@@ -128,4 +128,48 @@
 			<item value="org.eclipse.wst.web.ui"/>
 		</list>
 	</section>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\test1"/>
+			<item value="C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp_dept"/>
+			<item value="C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\2Team_Project_Final"/>
+			<item value="C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\Dummys"/>
+			<item value="C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\Spring_ajax_json_05_login"/>
+			<item value="C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\sp13_RestBoard"/>
+			<item value="C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\SpringMVC_Basic19_Restful"/>
+			<item value="C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\Spring_ajax_json_07_MultiFileUpload"/>
+			<item value="C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\Spring_ajax_json_06_Fileupload"/>
+			<item value="C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\SpringMVC_Basic11_Security"/>
+			<item value="C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\2TeamSecurityPractice"/>
+			<item value="C:\Users\KOSA\Desktop\2TeamSecurityPractice"/>
+			<item value="C:\Users\KOSA\Desktop\sp12_security"/>
+			<item value="C:\Users\KOSA\Desktop\TeamProject_Team3"/>
+			<item value="C:\Users\KOSA\Desktop\SpringMVC_Basic11_Security"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="941"/>
+		<item key="DIALOG_Y_ORIGIN" value="303"/>
+		<item key="DIALOG_WIDTH" value="700"/>
+		<item key="DIALOG_HEIGHT" value="708"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\test1"/>
+			<item value="C:\Users\KOSA\Documents\workspace-sts-3.9.18.RELEASE\test"/>
+		</list>
+	</section>
 </section>

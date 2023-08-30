@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<!-- userMapper.xml -->
+
+<mapper namespace="user">
+	<insert id="insertUser" parameterType="java.util.Map">
+		insert into
+		member_practice(id, pwd, name, role, regdate)
+		values
+		(#{userid},
+		#{passwd}, #{name}, #{authority}, sysdate)
+	</insert>
+	<select id="selectMember" resultType="java.util.Map">
+		select id as username, pwd
+		as password, name, role as authority, regdate from member_practice
+		where
+		id = #{id}
+	</select>
+
+	<select id="selectById" resultType="java.util.Map">
+		select id, name, role,
+		regdate from member_practice where id = #{id}
+	</select>
+
+	<update id="updateUser"
+		parameterType="java.util.Map">
+		update member_practice
+		set name= #{name}
+		where id = #{id}
+	</update>
+
+
+</mapper>

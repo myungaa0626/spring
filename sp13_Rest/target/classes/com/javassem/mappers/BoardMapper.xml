@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+					"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+					
+<mapper namespace="BoardDAO">
+
+<!-- CDATA가 무슨 뜻이냐 하면, 그것은 바로 'Character Data'. 즉, '문자 데이터'를 말하는 것입니다. 그런데 이 용어를 좀 더 정확하게 말하면 '(Unparsed) Character Data'. 즉, '파싱하지 않는 문자 데이터'라는 뜻입니다. 반대로, 파싱하는 문자 데이터는 'PCDATA'라고 부릅니다.
+
+출처: https://parkjuwan.tistory.com/156 [Juwan Park] -->
+
+	<insert id="insertBoard" parameterType="board">
+		<![CDATA[
+		INSERT INTO rest_board(SEQ, TITLE, WRITER, CONTENT, REGDATE, cnt)
+		VALUES(board_seq.nextval,
+			#{title}, #{writer}, #{content}, 
+			sysdate, 0)
+		]]>
+	</insert>
+	
+	<update id="updateBoard" parameterType="board">
+		<![CDATA[   <!-- 한 마디로 XML parser에 의해 해석하지말고 그대로 브라우저에 출력하라는 뜻 -->
+		UPDATE  rest_board SET
+		TITLE = #{title},
+		CONTENT = #{content}
+		WHERE SEQ = #{seq}
+		]]>
+	</update>
+	
+	<delete id="deleteBoard" parameterType="board">
+		<![CDATA[
+		DELETE  rest_board
+		WHERE SEQ = #{seq}
+		]]>
+	</delete>
+	
+	<select id="getBoard" resultType="board">
+		<![CDATA[
+		SELECT *
+		FROM rest_board
+		WHERE SEQ = #{seq}
+		]]>
+	</select>
+	
+<!-- 	<select id="getBoardList" resultType="board"> -->
+<!-- 		<![CDATA[ -->
+<!-- 		SELECT * -->
+<!-- 		FROM rest_board -->
+<!-- 		ORDER BY SEQ DESC -->
+<!-- 		]]> -->
+<!-- 	</select> -->
+	
+<!-- 	<select id="getBoardList" resultMap="boardResult"  > -->
+
+<!-- 		SELECT * -->
+<!-- 		FROM rest_BOARD -->
+<!-- 		ORDER BY SEQ DESC -->
+		
+<!-- 	</select> -->
+	<!-- 검색 추가  -->
+	<select id="getBoardList" resultType="board"  parameterType="hashmap">
+		
+		SELECT *
+		FROM rest_BOARD
+		<where>
+			<if test="searchCondition != null">
+				${searchCondition} LIKE '%${searchKeyword}%'
+			</if>
+		</where>		
+		ORDER BY SEQ DESC
+		
+	</select>
+</mapper>

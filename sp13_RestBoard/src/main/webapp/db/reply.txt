@@ -1,0 +1,39 @@
+CREATE TABLE rest_board (
+		seq 	number,
+		title	varchar2(50), 
+		writer  varchar2(30), 
+		content varchar2(200),
+		regdate date,
+		cnt		number,
+		CONSTRAINT pk_board_seq PRIMARY KEY(seq)
+);
+
+-- DROP SEQUENCE BOARD_SEQ;	 
+
+CREATE SEQUENCE board_seq;
+
+SELECT * FROM rest_BOARD;	
+	
+	
+	
+-------------------------------------------------------------	
+	테이블명 : reply
+	
+	댓글번호		rno			PK
+	게시글번호		bno			FK
+	댓글			reply
+	댓글작성자		replyer
+	댓글작성일		replydate
+
+
+  CREATE TABLE  rest_REPLY 
+   ("RNO" NUMBER(10,0), 
+	"BNO" NUMBER(10,0) NOT NULL ,
+	"REPLY" VARCHAR2(1000) NOT NULL, 
+	"REPLYER" VARCHAR2(50) NOT NULL, 
+	"REPLYDATE" DATE DEFAULT sysdate,  
+	 CONSTRAINT "PK_REPLY" PRIMARY KEY ("RNO"),
+ 	 CONSTRAINT "FK_REPLY_BOARD" FOREIGN KEY ("BNO") REFERENCES BOARD(SEQ) 
+   )  ;
+
+   create sequence reply_seq;

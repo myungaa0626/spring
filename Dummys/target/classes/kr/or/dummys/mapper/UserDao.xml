@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 
+	//회원가입
+	public int insertUser(Users users);
+	
+	//아이디 체크
+	public int idCheck(String userid);
+	
+	//로그인 체크
+	public int loginCheck(String userid, String password);
+	
+	//회원 상세
+	public Users userDetail(String userid);
+	
+	//회원 수정
+	public int updateUser(Users users);
+	
+	//전체 회원(활성화된)
+	public List<Users> listUsers();
+	
+	//전체회원(비활성화된)
+	public List<Users> listOutUsers();
+	
+	//회원 활성화
+	public int inUser();
+	
+	//회원 비활성화
+	public int outUser();
+	
+	//회원로그인 시간 초기화
+	public int updateLogin_date();
+	
+	//ROLE_SLEEP해제
+	public int deleteROLE_SLEEP(String userid);
+	
+	//ROLE_SLEEP있는지 여부 확인
+	public int selectROLE_SLEEP(String userid);
+ -->
+
+<mapper namespace="kr.or.dummys.dao.UserDao">
+	<insert id = "insertUser" parameterType="kr.or.dummys.dto.Users">
+		insert into users(userid, password, nickname, enabled) 
+        values(#{userid}, #{password}, #{nickname}, 1)
+	</insert>
+	
+	<select id="idCheck" parameterType="String" resultType="int">
+		select count(*) from users where userid=#{userid}
+	</select>
+	
+	<select id="loginCheck" resultType="int">
+		select count(*) from users where userid=#{param1} and pwd =#{param2}
+	</select>
+	
+	<select id="userDetail" resultType="kr.or.dummys.dto.Users">
+		select userid, password, nickname, enabled from users where userid = #{userid}
+	</select>
+	
+	<update id="updateUser">
+		update users
+		set password = #{password}, nickname=#{nickname} where userid = #{userid}
+	</update>
+	
+	<select id="listUsers" resultType="kr.or.dummys.dto.Users">
+		select u.userid as userid, password, nickname, enabled from users u join users_role r on u.userid = r.userid where u.enabled=1 and r.role_name = 'ROLE_USER'
+		
+	</select>
+	
+	<select id="listOutUsers" resultType="kr.or.dummys.dto.Users">
+		select u.userid as userid, password, nickname, enabled from users u join users_role r on u.userid = r.userid where u.enabled!=1 and r.role_name = 'ROLE_USER'
+	</select>
+	
+	<update id="inUser">
+		update users
+		set enabled =1 where userid = #{userid}
+	</update>
+	
+	<update id="outUser">
+		update users
+		set enabled = 0 where userid = #{userid}
+	</update>
+	<select id="myBoardList" resultType="kr.or.dummys.dto.Board">
+	 select * from board where userid=#{userid}
+	</select> 
+	
+	<select id="myReplyBoardList" resultType="kr.or.dummys.dto.Board">
+	  select board.board_no, board.board_kind, board.board_name, to_char(board.board_date,'yyyy-mm-dd') as board_date from reply inner join board on board.board_no = reply.board_no where reply.userid=#{userid} group by board.board_no, board_kind,board_name, board_date
+	</select>
+	
+	<!-- 이거는 최대한 건들지 마세요 로그인 스케쥴러랑 연관되어 있습니다-재홍 -->
+	<update id="updateLogin_date">
+		update users set login_date = current_date where userid=#{userid}
+	</update>
+	
+	<delete id="deleteROLE_SLEEP">
+		delete from users_role where userid=#{userid} and role_name='ROLE_SLEEP'
+	</delete>
+	
+	<select id="selectROLE_SLEEP" resultType="int">
+		select count(*) from users_role where userid=#{userid} and role_name='ROLE_SLEEP'
+	</select>
+	
+	<select id="getReportBoard" resultType="kr.or.dummys.dto.MyReportBoard">
+	select board_kind, board_name, board_no, warning_count from board b
+	join (select warning_type_no,count(*) as warning_count from warning
+	where warning_type='게시글' and receive_id=#{userid} group by warning_type_no) w
+	on w.warning_type_no = b.board_no
+	</select>
+	
+	<select id="getReportReply" resultType="kr.or.dummys.dto.MyReportReply">
+	select b.board_kind, b.board_name, reply_content,warning_count from reply r
+	join (select warning_type_no,count(*) as warning_count from warning
+	where warning_type='댓글' and receive_id=#{userid} group by warning_type_no) w
+	on r.reply_no = warning_type_no
+	join board b
+	on b.board_no = r.board_no
+	</select>
+</mapper>

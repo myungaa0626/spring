@@ -13,21 +13,30 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value=""/>
+		<item key="selection" value="mybatis"/>
 		<list key="findhistory">
-			<item value="]"/>
-			<item value="&quot;&quot;"/>
-			<item value="reply"/>
-			<item value="batis"/>
-			<item value="close"/>
-			<item value="16"/>
+			<item value="mybatis"/>
+			<item value="root"/>
+			<item value="myba"/>
+			<item value="lombo"/>
+			<item value="ojdbc"/>
+			<item value="mybatis-s"/>
+			<item value="ojdb"/>
+			<item value="plugin"/>
+			<item value="failo"/>
+			<item value="fail"/>
+			<item value="ojd"/>
+			<item value="source-re"/>
+			<item value="componen"/>
+			<item value="authenti"/>
+			<item value="jdbc"/>
 		</list>
 		<list key="replacehistory">
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="1095"/>
-		<item key="DIALOG_Y_ORIGIN" value="427"/>
+		<item key="DIALOG_X_ORIGIN" value="320"/>
+		<item key="DIALOG_Y_ORIGIN" value="439"/>
 		<item key="DIALOG_WIDTH" value="393"/>
 		<item key="DIALOG_HEIGHT" value="523"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>

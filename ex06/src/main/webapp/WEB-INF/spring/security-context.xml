@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:security="http://www.springframework.org/schema/security"
+	xsi:schemaLocation="http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd
+	http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="customAccessDenied"
+		class="org.zerock.security.CustomAccessDeniedHandler">
+	</bean>
+
+	<bean id="customLoginSuccess"
+		class="org.zerock.security.CustomLoginSuccessHandler">
+	</bean>
+
+	<security:http>
+
+		<!-- 접근 제한 설정 -->
+		<security:intercept-url pattern="/sample/all"
+			access="permitAll" />
+		<security:intercept-url
+			pattern="/sample/member" access="hasRole('ROLE_MEMBER')" />
+
+		<security:intercept-url pattern="/sample/admin"
+			access="hasRole('ROLE_ADMIN')" />
+
+		<!-- <security:form-login /> -->
+
+		<!-- <security:access-denied-handler error-page="/accessError" /> -->
+		<security:access-denied-handler
+			ref="customAccessDenied" />
+
+		<security:form-login login-page="/customLogin"
+			authentication-success-handler-ref="customLoginSuccess" />
+
+		<!-- csrf 토큰 생성 비활성화 -->
+		<!-- <security:csrf disabled="true" /> -->
+
+		<security:logout logout-url="/customLogout"
+			invalidate-session="true" />
+
+	</security:http>
+
+	<security:authentication-manager>
+
+		<security:authentication-provider>
+			<security:jdbc-user-service
+				data-source-ref="datasource" />
+
+			<security:user-service>
+				<security:user name="member" password="{noop}member"
+					authorities="ROLE_MEMBER" />
+
+				<security:user name="admin" password="{noop}admin"
+					authorities="ROLE_MEMBER, ROLE_ADMIN" />
+
+			</security:user-service>
+
+		</security:authentication-provider>
+	</security:authentication-manager>
+
+</beans>
